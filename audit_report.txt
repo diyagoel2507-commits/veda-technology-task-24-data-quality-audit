@@ -1,0 +1,53 @@
+
+DATA QUALITY AUDIT REPORT
+VEDA Technology - Level 2, Day 24
+
+1. OBJECTIVE
+Assess the quality of the retail sales sample dataset
+and identify records requiring correction or investigation.
+
+2. DATASET OVERVIEW
+Original rows: 14
+Columns: 8
+Missing cells: 3
+
+3. KEY FINDINGS
+Exact duplicate rows: 1
+Repeated Order IDs: 1
+Missing Customer IDs: 1
+Missing Unit Prices: 1
+Missing Regions: 1
+Invalid quantities: 2
+Invalid non-missing prices: 1
+Inconsistent region formatting: 1
+
+4. CLEANING SUMMARY
+Rows retained in cleaned sample: 8
+Rows excluded from cleaned sample: 6
+
+5. METHODOLOGY
+- Loaded and inspected the CSV using Pandas.
+- Checked missing values and duplicate records.
+- Validated quantity and unit price rules.
+- Checked region formatting consistency.
+- Removed exact duplicate rows from the working copy.
+- Standardized region formatting.
+- Excluded records that failed required validation rules.
+- Preserved the original raw dataset.
+
+6. RECOMMENDED ACTIONS
+- Investigate missing customer IDs and regions.
+- Verify missing and negative prices against source records.
+- Review zero or negative quantities with the order source.
+- Confirm duplicates before removing them from production data.
+- Apply validation checks before future data entry.
+
+7. LIMITATIONS
+This is a small sample dataset created for practice.
+Excluded records have not been permanently deleted from
+the raw dataset. Their values require source verification.
+
+8. CONCLUSION
+The audit identified data quality issues that could affect
+reporting accuracy. The cleaned sample contains only records
+that passed the selected validation rules.
