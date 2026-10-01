@@ -1,8 +1,0 @@
-Issue,Validation_Rule,Affected_Count,Recommended_Action
-Missing Customer ID,Customer_ID must not be blank,1,Investigate and recover the correct ID
-Missing Unit Price,Unit_Price must not be blank,1,Verify price from the source
-Missing Region,Region must not be blank,1,Verify the customer's region
-Exact Duplicate Rows,Complete rows should not be duplicated,1,Review and remove confirmed duplicates
-Invalid Quantity,Quantity must be greater than zero,2,Verify quantity against the original order
-Invalid Unit Price,Unit_Price must be greater than zero,1,Verify the original product price
-Inconsistent Region Format,Region names must use consistent formatting,1,Standardize formatting after validation
