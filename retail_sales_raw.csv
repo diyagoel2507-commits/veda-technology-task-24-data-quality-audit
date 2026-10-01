@@ -1,0 +1,15 @@
+Order_ID,Order_Date,Customer_ID,Product,Category,Quantity,Unit_Price,Region
+101,2026-09-01,C001,Laptop,Electronics,1,55000,North
+102,2026-09-02,C002,Mouse,Electronics,2,500,South
+103,2026-09-03,C003,Chair,Furniture,1,4500,East
+104,2026-09-04,,Keyboard,Electronics,3,800,West
+105,2026-09-05,C005,Desk,Furniture,0,7000,North
+106,2026-09-06,C006,Monitor,Electronics,2,12000,South
+106,2026-09-06,C006,Monitor,Electronics,2,12000,South
+107,2026-09-07,C007,Notebook,Stationery,5,50,North
+108,2026-09-08,C008,Pen,Stationery,-2,20,East
+109,2026-09-09,C009,Phone,Electronics,1,-15000,West
+110,2026-09-10,C010,Table,Furniture,2,6000,north
+111,2026-09-11,C011,Printer,Electronics,1,,
+112,2026-09-12,C012,Folder,Stationery,4,30,South
+113,2026-09-13,C013,Book,Stationery,3,150,East
